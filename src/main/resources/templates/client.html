@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
+<title>Insert title here</title>
+</head>
+<body>
+	<ul class="nav justify-content-end">
+		<li class="nav-item"><a class="nav-link active" href="#">Cliente</a>
+		</li>
+		<li class="nav-item"><a class="nav-link" th:href="@{/logout}">Cerrar
+				sesión</a></li>
+	</ul>
+	<div class="container">
+		<div class="col-sm-4"></div>
+		<div class="col-sm-4">
+			<h1>Bienvenido sr. usuario</h1>
+		</div>
+		<div class="col-sm-4"></div>
+	</div>
+</body>
+</html>
